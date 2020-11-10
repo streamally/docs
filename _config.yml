@@ -28,7 +28,7 @@ twitter_username: recycledbeans
 github_username:  recycledbeans
 
 # Build settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
 
