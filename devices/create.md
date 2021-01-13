@@ -26,6 +26,7 @@ POST https://studio.streamally.live/api/user/register
 | phone | Phone number of the person who will be using the show link |
 | devices | Number of devices that should be created for the user (defaults to 1). |
 | notify | Send value of `1` if StreamAlly should send the user their show links by email and/or SMS |
+| unique_id | A unique identifier for the device or devices. If provided, this identifier will make sure subsequent requests with the same identifier do not produce additional links |
 
 #### \* Required fields denoted by asterisk
 
