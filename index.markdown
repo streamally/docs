@@ -36,3 +36,7 @@ GET https://studio.streamally.live/api/user?api_token=988881adc9fc3655077dc2d4d7
     "moderator": false
 }
 ```
+
+# Sandbox
+
+The API sandbox environment is accessible by making requests to `https://studio.streamally.dev` instead of `https://studio.streamally.live`. Please note that you will need to request separate credentials as the same tokens will not work on both live and sandbox environments.
